@@ -4,8 +4,9 @@ nav {
     align-items: center;
     .brand-container {
       .brand {
-        img {
-          height: 100%;
+        h1{
+          font-size: 50px;
+          font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
       }
       .toggle-container {
@@ -46,14 +47,30 @@ nav {
     nav {
       .brand-container {
         .brand {
-          img {
-            filter: brightness(0);
+          h1{
+            color: black;
+          }
+          .h2{
+            color: black;
           }
         }
       }
     }
   }
-  
+  [data-theme="dark"] {
+    nav {
+      .brand-container {
+        .brand {
+          h1{
+            color: white;
+          }
+          .h2{
+            color: white;
+          }
+        }
+      }
+    }
+  }
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     nav {
       position: relative;

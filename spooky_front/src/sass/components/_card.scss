@@ -2,8 +2,13 @@
     background-color: var(--card-color);
     width: max-content;
     border-radius: 1rem;
+    display: flex;
+
     &-image {
       img {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50% ;
       }
     }
     &-content {

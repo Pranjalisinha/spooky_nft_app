@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import Clients from "./components/Clients";
+import React, { useState, useEffect } from "react"
 import Footer from "./components/Footer";
 import Free from "./components/Free";
 import Home from "./components/Home";
@@ -54,11 +53,10 @@ function App() {
       <Navbar changeTheme={changeTheme} currentTheme={theme} />
       <Home />
       <Free />
-      <Clients />
       <SuperRare />
-      <Release />
+      {/* <Release />
       <Like />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

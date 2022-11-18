@@ -7,11 +7,9 @@ export default function ScrollToTop() {
   });
   return (
     <div className={`scrollToTop ${visible ? "visible" : ""}`}>
-      {/* <a href="#"> */}
-      <button>
+      <a href="#">
         <BsChevronUp />
-        </button>
-      {/* </a> */}
+      </a>
     </div>
   );
 }

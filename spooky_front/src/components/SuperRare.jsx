@@ -43,13 +43,17 @@ export default function SuperRare() {
   return (
     <div className="super-rare">
       <div className="title-container">
-        <h2 className="title">LE Super Rare Auction</h2>
+        <h1 className="title">PRODUCT</h1>
+        <h1 style={{"textAlign":"left", "font-size":"2rem"}} className="title" >SPOOKY LIST</h1>
         <p className="description">
-          We have released four limited edition NFT's early which can be
-          bid on via OpenSea.
+        A curated list of projects and people building on Aptos. Discover the best NFTs, DeFi applications, marketplaces and people to follow.
+        </p>
+        <p className="description">
+        A complete suite of tracking tools with detailed statistics breakdown and historical data, including on-chain metrics, will be available only for Spooks' holders.
         </p>
       </div>
       <div className="cards">
+       
         {data.map(({ image, series, title, price, tag, time }, index) => (
           <Card
             image={image}
