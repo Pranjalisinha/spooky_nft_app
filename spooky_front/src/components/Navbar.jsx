@@ -9,7 +9,7 @@ export default function Navbar({ changeTheme, currentTheme }) {
     <nav>
       <div className="brand-container">
         <div className="brand">
-         <h1>SPOOKY</h1>
+         <h1>DEPTHOS</h1>
         </div>
         <div className="toggle-container">
           <div className="toggle">

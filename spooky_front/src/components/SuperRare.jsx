@@ -44,7 +44,7 @@ export default function SuperRare() {
     <div className="super-rare">
       <div className="title-container">
         <h1 className="title">PRODUCT</h1>
-        <h1 style={{"textAlign":"left", "font-size":"2rem"}} className="title" >SPOOKY LIST</h1>
+        <h1 style={{"textAlign":"left", "font-size":"2rem"}} className="title" >DEPTHOS LIST</h1>
         <p className="description">
         A curated list of projects and people building on Aptos. Discover the best NFTs, DeFi applications, marketplaces and people to follow.
         </p>
@@ -66,6 +66,7 @@ export default function SuperRare() {
           />
         ))}
       </div>
+      <a href="#showMore" >SHOW MORE</a>
     </div>
   );
 }
